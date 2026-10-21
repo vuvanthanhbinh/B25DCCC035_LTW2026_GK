@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #222; }
+.container { max-width: 900px; margin: 0 auto; padding: 0 16px 32px; }
+.navbar { display: flex; gap: 20px; padding: 14px 0; border-bottom: 1px solid #ddd; }
+.navbar a { text-decoration: none; }
+.navbar a:not(.active) { color: #333; }
+.active { color: red; font-weight: bold; }
+.filter-bar { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+.filter-bar label, form label { margin-right: 6px; }
+form div { margin-bottom: 10px; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+tbody tr:hover { background: #f0f6ff; }
+.unpaid { color: orange; }
+button { margin-right: 6px; cursor: pointer; }
+.mobile .col-category, .mobile .col-date { display: none; }
